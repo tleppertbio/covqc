@@ -1,5 +1,5 @@
 Package: covqc
-Title: Flag sequencing samples that fail coverage QC
+Title: Flag Sequencing Samples That Fail Coverage QC
 Version: 1.0.0
 Authors@R: 
     person("Tami", "Leppert", , "TamiLeppert@comcast.net", role = c("aut", "cre"))
