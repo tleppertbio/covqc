@@ -23,3 +23,8 @@ test_that("missing values fail QC", {
 test_that("a missing column gives a clear error", {
   expect_error(flag_qc_failures(data.frame(depth = 30)), "Missing column")
 })
+
+test_that("samples exactly at the thresholds pass", {
+  samples <- data.frame(mean_depth = 20, breadth = 0.95)
+  expect_true(flag_qc_failures(samples)$qc_pass)
+})
