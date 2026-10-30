@@ -16,6 +16,9 @@ min_depth and min_breadth can be adjusted in flag_qc.R
 You can install the development version of covqc like so:
 
 ``` r
+In R studio:
+install.packages("pak")
+pak::pkg_install("tleppertbio/covqc")
 
 ```
 
