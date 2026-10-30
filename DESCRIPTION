@@ -1,0 +1,13 @@
+Package: covqc
+Title: Flag sequencing samples that fail coverage QC
+Version: 1.0.0
+Authors@R: 
+    person("Tami", "Leppert", , "TamiLeppert@comcast.net", role = c("aut", "cre"))
+Description: Adds pass/fail flags and reasons to per-sample coverage summaries using configurable depth and breadth thresholds.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
